@@ -1,0 +1,6 @@
+[submodule "SAMP-Utl/Deps/sdk"]
+	path = SAMP-Utl/Deps/sdk
+	url = https://github.com/maddinat0r/samp-plugin-sdk.git
+[submodule "SAMP-Utl/Deps/cmake-modules"]
+	path = SAMP-Utl/Deps/cmake-modules
+	url = https://github.com/Zeex/cmake-modules.git
