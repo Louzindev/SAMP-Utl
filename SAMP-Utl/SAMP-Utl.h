@@ -14,6 +14,8 @@ public:
 	bool giveDMG;
 };
 namespace sutl {
+	extern sutl_data sutl_info;
+	extern sutl_player* s_player[1000];
 	int connect_Sutl(int playerid);
 	int ClearPlayerChat(int playerid);
 	int ClearChat();

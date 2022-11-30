@@ -260,6 +260,33 @@ SAMP-Utl.cpp.s:
 	cd /home/louzindeev/SA-MP/SAMP-Utl/build && $(MAKE) -f SAMP-Utl/CMakeFiles/SAMPUtl.dir/build.make SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl.cpp.s
 .PHONY : SAMP-Utl.cpp.s
 
+SAMP-Utl/player.o: SAMP-Utl/player.cpp.o
+
+.PHONY : SAMP-Utl/player.o
+
+# target to build an object file
+SAMP-Utl/player.cpp.o:
+	cd /home/louzindeev/SA-MP/SAMP-Utl/build && $(MAKE) -f SAMP-Utl/CMakeFiles/SAMPUtl.dir/build.make SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.o
+.PHONY : SAMP-Utl/player.cpp.o
+
+SAMP-Utl/player.i: SAMP-Utl/player.cpp.i
+
+.PHONY : SAMP-Utl/player.i
+
+# target to preprocess a source file
+SAMP-Utl/player.cpp.i:
+	cd /home/louzindeev/SA-MP/SAMP-Utl/build && $(MAKE) -f SAMP-Utl/CMakeFiles/SAMPUtl.dir/build.make SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.i
+.PHONY : SAMP-Utl/player.cpp.i
+
+SAMP-Utl/player.s: SAMP-Utl/player.cpp.s
+
+.PHONY : SAMP-Utl/player.s
+
+# target to generate assembly for a file
+SAMP-Utl/player.cpp.s:
+	cd /home/louzindeev/SA-MP/SAMP-Utl/build && $(MAKE) -f SAMP-Utl/CMakeFiles/SAMPUtl.dir/build.make SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.s
+.PHONY : SAMP-Utl/player.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -311,6 +338,9 @@ help:
 	@echo "... SAMP-Utl.o"
 	@echo "... SAMP-Utl.i"
 	@echo "... SAMP-Utl.s"
+	@echo "... SAMP-Utl/player.o"
+	@echo "... SAMP-Utl/player.i"
+	@echo "... SAMP-Utl/player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

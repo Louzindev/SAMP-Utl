@@ -14,18 +14,9 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** ppData) {
     return true;
 }
 
-extern "C" const AMX_NATIVE_INFO native_list[] = {
-    { "ClearPlayerChat", Natives::ClearPlayerChat },
-    { "IsPlayerInMainWorld", Natives::IsPlayerInMainWorld },
-    { "TogglePlayerTakeDamage", Natives::TogglePlayerTakeDamage },
-    { "IsPlayerAbleToTakeDamage", Natives::IsPlayerAbleToTakeDamage },
-    { "TogglePlayerGiveDamage", Natives::TogglePlayerGiveDamage },
-    { "IsPlayerAbleToGiveDamage", Natives::IsPlayerAbleToGiveDamage },
-    { NULL, NULL }
-};
 
 PLUGIN_EXPORT int PLUGIN_CALL AmxLoad(AMX* amx) {
-    return amx_Register(amx, native_list, -1);
+    return amx_Register(amx, Natives::native_list, -1);
 }
 
 PLUGIN_EXPORT void PLUGIN_CALL Unload() {

@@ -35,4 +35,14 @@ namespace Natives {
 		int playerid = static_cast<int>(params[1]);
 		return sutl::IsPlayerAbleToGiveDamage(playerid);
 	}
+
+	const AMX_NATIVE_INFO native_list[] = {
+		{ "ClearPlayerChat", ClearPlayerChat },
+		{ "IsPlayerInMainWorld", IsPlayerInMainWorld },
+		{ "TogglePlayerTakeDamage", TogglePlayerTakeDamage },
+		{ "IsPlayerAbleToTakeDamage", IsPlayerAbleToTakeDamage },
+		{ "TogglePlayerGiveDamage", TogglePlayerGiveDamage },
+		{ "IsPlayerAbleToGiveDamage", IsPlayerAbleToGiveDamage },
+		{ NULL, NULL }
+	};
 };

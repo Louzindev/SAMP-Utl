@@ -17,6 +17,8 @@ namespace Natives {
 	cell TogglePlayerGiveDamage(AMX* amx, cell* params);
 	// native IsPlayerAbleToGiveDamage(const playerid);
 	cell IsPlayerAbleToGiveDamage(AMX* amx, cell* params);
+
+	extern "C" const AMX_NATIVE_INFO native_list[];
 };
 
 #endif

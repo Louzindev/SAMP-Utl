@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"name": "Repo",
+			"path": ".."
+		},
+		{
+			"name":"Source",
+			"path": "../SAMP-Utl"
+		},
+		{
+			"name":"sampsvr",
+			"path": "../test"
+		}
+	],
+	"settings": {
+		"C_Cpp.errorSquiggles": "Disabled"
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "all",
+				"command": "make",
+				"type": "shell",
+				"args": [],
+				"problemMatcher": [
+					"$tsc"
+				],
+				"presentation": {
+					"reveal": "always",
+					"panel":"new"
+				},
+				"group": "build"
+			},
+			{
+				"label": "clear",
+				"command": "make",
+				"type": "shell",
+				"args": ["clear"],
+				"problemMatcher": [
+					"$tsc"
+				],
+				"presentation": {
+					"reveal": "always"
+				},
+				"group": "build"
+			}
+		]
+	}
+}

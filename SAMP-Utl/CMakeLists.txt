@@ -2,6 +2,10 @@
 include(AMXConfig)
 include(AddSAMPPlugin)
 
+set(SAMPUTL_SRC 
+	"SAMP-Utl/player.cpp"
+)
+
 set(SOURCES
 	"${SDK}/amxplugin.cpp"
 	"${SDK}/amxplugin2.cpp"
@@ -9,7 +13,6 @@ set(SOURCES
 	"SAMP-Utl.cpp"
 	"Natives.cpp"
 	"main.cpp"
-	"plugin.def"
 )
 
 set(HEADERS 
@@ -24,6 +27,8 @@ set(HEADERS
 add_samp_plugin(SAMPUtl 
 	"${HEADERS}"
 	"${SOURCES}"
+	"${SAMPUTL_SRC}"
+	"plugin.def"
 )
 
 
