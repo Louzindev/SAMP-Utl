@@ -5,14 +5,12 @@
         {
             "name":"SAMPUlt.so",
             "platform":"linux",
-            "plugins":"SAMPUtl.so",
-            "includes":["SAMPUtl"]
+            "plugins":"SAMPUtl.so"
         },
         {
             "name":"SAMPUlt.dll",
             "platform":"windows",
-            "plugins":"SAMPUtl.dll",
-            "includes":["SAMPUtl"]
+            "plugins":"SAMPUtl.dll"
         }
 
     ]
