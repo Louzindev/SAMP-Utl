@@ -1,5 +1,16 @@
 #include "../SAMP-Utl.h"
+
 namespace sutl {
+	static int sutl_main_world = 0;
+	sutl_player* s_player[1000];
+	int connect_Sutl(int playerid) {
+		if(s_player[playerid] == NULL) 
+			s_player[playerid] = new sutl_player();
+		else 
+		    delete s_player[playerid];
+		return 1;
+	}
+	
 	int ClearPlayerChat( int playerid ) 
 	{
 		if (IsPlayerConnected( playerid )) 
@@ -23,7 +34,7 @@ namespace sutl {
 	
 	bool IsPlayerInMainWorld(int playerid) 
 	{
-		if(GetPlayerVirtualWorld(playerid) == sutl_info.mainWorld)
+		if(GetPlayerVirtualWorld(playerid) == sutl_main_world)
 			return true;
 		else 
 			return false;

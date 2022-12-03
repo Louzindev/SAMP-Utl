@@ -10,6 +10,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** ppData) {
     pAMXFunctions = ppData[PLUGIN_DATA_AMX_EXPORTS];
     logprintf = (logprintf_t)ppData[PLUGIN_DATA_LOGPRINTF];
     sampgdk::Load(ppData);
+    sutl::init_actors();
     logprintf("\n* SAMP-Utl %s Loaded\n", PLUGIN_VERSION_STR);
     return true;
 }

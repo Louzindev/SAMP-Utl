@@ -4,6 +4,7 @@ include(AddSAMPPlugin)
 
 set(SAMPUTL_SRC 
 	"SAMP-Utl/player.cpp"
+	"SAMP-Utl/actor.cpp"
 )
 
 set(SOURCES

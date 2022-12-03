@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin2.cpp.o"
   "CMakeFiles/SAMPUtl.dir/Natives.cpp.o"
   "CMakeFiles/SAMPUtl.dir/SAMP-Utl.cpp.o"
+  "CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o"
   "CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.o"
   "CMakeFiles/SAMPUtl.dir/main.cpp.o"
 )

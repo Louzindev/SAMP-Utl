@@ -31,6 +31,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/Deps/sdk/amxplugin2.cpp" "/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin2.cpp.o"
   "/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/Natives.cpp" "/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir/Natives.cpp.o"
   "/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl.cpp" "/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl.cpp.o"
+  "/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl/actor.cpp" "/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o"
   "/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl/player.cpp" "/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.o"
   "/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/main.cpp" "/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir/main.cpp.o"
   )

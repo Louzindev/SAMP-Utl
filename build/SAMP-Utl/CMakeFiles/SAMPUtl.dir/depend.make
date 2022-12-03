@@ -44,6 +44,18 @@ SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl.cpp.o: ../SAMP-Utl/SAMP-Utl.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl.cpp.o: ../SAMP-Utl/common.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl.cpp.o: version.h
 
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Deps/sampgdk/sampgdk.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Deps/sdk/amx/amx.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Deps/sdk/amx/amx2.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Deps/sdk/amx/getch.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Deps/sdk/amx/sclinux.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Deps/sdk/plugincommon.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/Natives.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/SAMP-Utl.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/SAMP-Utl/actor.cpp
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: ../SAMP-Utl/common.h
+SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/actor.cpp.o: version.h
+
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.o: ../SAMP-Utl/Deps/sampgdk/sampgdk.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.o: ../SAMP-Utl/Deps/sdk/amx/amx.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/SAMP-Utl/player.cpp.o: ../SAMP-Utl/Deps/sdk/amx/amx2.h
