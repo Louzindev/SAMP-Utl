@@ -1,0 +1,19 @@
+{
+    "user":"LouzinDeev",
+    "repo":"SAMP-Ult",
+    "resources": [
+        {
+            "name":"SAMPUlt.so",
+            "platform":"linux",
+            "plugins":"SAMPUtl.so",
+            "includes":["SAMPUtl"]
+        },
+        {
+            "name":"SAMPUlt.dll",
+            "platform":"windows",
+            "plugins":"SAMPUtl.dll",
+            "includes":["SAMPUtl"]
+        }
+
+    ]
+}
