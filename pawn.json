@@ -6,13 +6,11 @@
         {
             "name":"SAMPUlt.so",
             "platform":"linux",
-            "plugins":"SAMPUtl.so",
             "archive":false
         },
         {
             "name":"SAMPUlt.dll",
             "platform":"windows",
-            "plugins":"SAMPUtl.dll",
             "archive":false
         }
 
