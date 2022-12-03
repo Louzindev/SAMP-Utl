@@ -1,6 +1,7 @@
 {
     "user":"LouzinDeev",
     "repo":"SAMP-Ult",
+    "dependencies": ["sampctl/samp-stdlib"],
     "resources": [
         {
             "name":"SAMPUlt.so",
