@@ -33,20 +33,13 @@ namespace sutl {
 		return 1;
 	}	
 	bool IsPlayerAbleToTakeDamage(int playerid) {
-		if(s_player[playerid]->takeDMG)
-			return true;
-		else 
-			return false;
-
+		return s_player[playerid]->takeDMG;
 	}	
 	int TogglePlayerGiveDamage(int playerid, bool toggle) {
 		s_player[playerid]->giveDMG = toggle;
 		return 1;
 	}
 	bool IsPlayerAbleToGiveDamage(int playerid) {
-		if(s_player[playerid]->giveDMG) 
-		    return true;
-        else 
-            return false;
+		return s_player[playerid]->giveDMG;
 	}
 };

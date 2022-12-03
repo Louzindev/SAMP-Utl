@@ -12,7 +12,6 @@ SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin.cpp.o: ../SAMP-Utl/Deps/sdk/a
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin.cpp.o: ../SAMP-Utl/Deps/sdk/amx/getch.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin.cpp.o: ../SAMP-Utl/Deps/sdk/amx/sclinux.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin.cpp.o: ../SAMP-Utl/Deps/sdk/amxplugin.cpp
-SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin.cpp.o: ../SAMP-Utl/Deps/sdk/plugin.h
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin.cpp.o: ../SAMP-Utl/Deps/sdk/plugincommon.h
 
 SAMP-Utl/CMakeFiles/SAMPUtl.dir/Deps/sdk/amxplugin2.cpp.o: ../SAMP-Utl/Deps/sdk/amx/amx.h
