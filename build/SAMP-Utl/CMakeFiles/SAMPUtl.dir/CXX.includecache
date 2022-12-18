@@ -58,25 +58,13 @@ machine/endian.h
 
 ../SAMP-Utl/Deps/sdk/plugincommon.h
 
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/Natives.cpp
-Natives.h
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/Natives.h
-
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/Natives.h
 common.h
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/common.h
 
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl.cpp
-SAMP-Utl.h
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl.h
-
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl.h
 common.h
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/common.h
-
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl/actor.cpp
-../SAMP-Utl.h
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl.h
 
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl/player.cpp
 ../SAMP-Utl.h
@@ -86,6 +74,10 @@ common.h
 iostream
 -
 cstdlib
+-
+unordered_map
+-
+memory
 -
 amx/amx.h
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/amx/amx.h
@@ -101,10 +93,6 @@ SAMP-Utl.h
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/SAMP-Utl.h
 version.h
 /home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/version.h
-
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/main.cpp
-common.h
-/home/louzindeev/SA-MP/SAMP-Utl/SAMP-Utl/common.h
 
 version.h
 

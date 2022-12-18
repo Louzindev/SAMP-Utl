@@ -8,12 +8,16 @@ public:
 	bool takeDMG;
 	bool giveDMG;
 };
+
+
 class sutl_actor {
 public:
 	sutl_actor();
 	bool BeAimed;
 	int timerTarget;
+	int timerBubble;
 };
+
 
 namespace sutl {
 	// Global
@@ -31,7 +35,10 @@ namespace sutl {
 	int toggleActorGetAimed(const int actorid, bool toggle, AMX* amx);
 	bool IsActorAbleToGetAimed(const int actorid);
 	int GetPlayerWhoAimActor(const int actorid);
+	int SetActorChatBubble(int actorid, const char* text, int time);
+
 	void SAMPGDK_CALL verifyActorTarget(int timerid, void* args);
+	void SAMPGDK_CALL timerBubble(int timerid, void* args);
 };
 
 #endif

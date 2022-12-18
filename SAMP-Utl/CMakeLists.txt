@@ -38,5 +38,6 @@ target_include_directories(SAMPUtl PUBLIC
 	"${GDK}"
 	"${CMAKE_BINARY_DIR}"
 )
+
 target_compile_definitions(SAMPUtl PUBLIC "-DSAMPGDK_AMALGAMATION")
 

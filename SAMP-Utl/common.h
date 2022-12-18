@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <cstdlib>
+#include <unordered_map>
+#include <memory>
 #include "amx/amx.h"
 #include "amx/amx2.h"
 #include "plugincommon.h"
