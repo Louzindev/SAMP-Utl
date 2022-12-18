@@ -1,3 +1,4 @@
+[![Starred LouzinDeev/SAMP-Utl](https://reporoster.com/stars/LouzinDeev/SAMP-Utl)](https://github.com/LouzinDeev/SAMP-Utl/stargazers)
 # SAMP-Utl (SA-MP Utils)
 > EN: a lib used to add new natives and callbacks to SA-MP
 
