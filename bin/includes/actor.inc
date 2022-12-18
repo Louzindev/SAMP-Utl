@@ -9,4 +9,5 @@ forward OnActorGetsAimed(const actorid, const playerid);
 
 native toggleActorGetAimed(const actorid, bool:toggle);
 native GetPlayerWhoAimActor(const actorid);
+native SetActorChatBubble(const actorid, const text[], const time);
 

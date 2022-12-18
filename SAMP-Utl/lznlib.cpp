@@ -1,4 +1,4 @@
-#include "lzn_lib.h"
+#include "lznlib.h"
 
 namespace lzn {
     void amx_GetStr(AMX* amx, cell amx_addr, char* dest, int len) 
