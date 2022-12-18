@@ -1,5 +1,0 @@
-/home/louzindeev/SA-MP/SAMP-Utl/build/CMakeFiles/rebuild_cache.dir
-/home/louzindeev/SA-MP/SAMP-Utl/build/CMakeFiles/edit_cache.dir
-/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/rebuild_cache.dir
-/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/edit_cache.dir
-/home/louzindeev/SA-MP/SAMP-Utl/build/SAMP-Utl/CMakeFiles/SAMPUtl.dir

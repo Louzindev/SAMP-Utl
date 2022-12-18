@@ -25,6 +25,8 @@ namespace Natives {
 	cell toggleActorGetAimed(AMX* amx, cell* params);
 	// native GetPlayerWhoAimActor(const actorid);
 	cell GetPlayerWhoAimActor(AMX* amx, cell* params);
+	// native SetActorBubble(const actorid, const text[], const time);
+	cell SetActorChatBubble(AMX* amx, cell* params);
 
 	extern "C" const AMX_NATIVE_INFO native_list[];
 };

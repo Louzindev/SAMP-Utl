@@ -11,6 +11,7 @@ set(SOURCES
 	"${SDK}/amxplugin.cpp"
 	"${SDK}/amxplugin2.cpp"
 	"${GDK}/sampgdk.c"
+	"lznlib.h"
 	"SAMP-Utl.cpp"
 	"Natives.cpp"
 	"main.cpp"
@@ -20,6 +21,7 @@ set(HEADERS
 	"${SDK}/amx/amx.h"
 	"${SDK}/amx/amx2.h"
 	"${GDK}/sampgdk.h"
+	"lznlib.cpp"
 	"SAMP-Utl.h"
 	"Natives.h"
 	
@@ -32,12 +34,4 @@ add_samp_plugin(SAMPUtl
 	"plugin.def"
 )
 
-
-target_include_directories(SAMPUtl PUBLIC
-	"${SDK}"
-	"${GDK}"
-	"${CMAKE_BINARY_DIR}"
-)
-
 target_compile_definitions(SAMPUtl PUBLIC "-DSAMPGDK_AMALGAMATION")
-

@@ -3,12 +3,13 @@
 
 #include <iostream>
 #include <cstdlib>
-#include <unordered_map>
+#include <vector>
 #include <memory>
-#include "amx/amx.h"
-#include "amx/amx2.h"
-#include "plugincommon.h"
-#include "sampgdk.h"
+#include <amx/amx.h>
+#include <amx/amx2.h>
+#include <plugincommon.h>
+#include <sampgdk.h>
+#include "lznlib.h"
 #include "Natives.h"
 #include "SAMP-Utl.h"
 #include "version.h"

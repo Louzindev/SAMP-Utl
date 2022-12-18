@@ -55,19 +55,33 @@ namespace sutl {
     
     int SetActorChatBubble(int actorid, const char* text, int time) 
     {
-        struct args 
+        struct args
         {
             int actorid;
             const char* text;
-            int time;
-        }
+        };
+        args arg = {actorid, text};
 
-        args arg = {actorid, text, time};
+        std::vector<float> a_pos;
+        GetActorPos(actorid, &a_pos[0], &a_pos[1], &a_pos[2]);
 
-        
+        s_actor[actorid]->actorBubble = Create3DTextLabel(text, -1, a_pos[0], a_pos[1], a_pos[3], 30.0, 0, false);
 
+        if (!s_actor[actorid]->timerBubble) KillTimer(s_actor[actorid]->timerBubble);
+        s_actor[actorid]->timerBubble = SetTimer(time, false, timerBubble, (void*)&arg);
+        return 1;
     }
 
+
+    void SAMPGDK_CALL timerBubble(int timerid, void* args) {
+        struct param
+        {
+            int actorid;
+            const char* text;
+        };
+        param* params = (param*)args;
+        Delete3DTextLabel(s_actor[params->actorid]->actorBubble);
+    }
 
     void SAMPGDK_CALL verifyActorTarget(int timerid, void* args) 
     {

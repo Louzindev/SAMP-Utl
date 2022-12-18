@@ -16,6 +16,7 @@ public:
 	bool BeAimed;
 	int timerTarget;
 	int timerBubble;
+	int actorBubble;
 };
 
 
@@ -36,7 +37,6 @@ namespace sutl {
 	bool IsActorAbleToGetAimed(const int actorid);
 	int GetPlayerWhoAimActor(const int actorid);
 	int SetActorChatBubble(int actorid, const char* text, int time);
-
 	void SAMPGDK_CALL verifyActorTarget(int timerid, void* args);
 	void SAMPGDK_CALL timerBubble(int timerid, void* args);
 };
