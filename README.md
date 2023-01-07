@@ -14,7 +14,7 @@
 
 >PT/BR: Adicionar uma documentaçao para as natives e callbacks, e claro, adicionar muito mais funçoes, hehe
 
-## Natives
+## Funçoes
 forward OnActorGetsAimed(const actorid, const playerid);
 > * E chamado quando um actor e mirado por algum player, use 'toggleActorGetAimed(id, true)' para ativar essa funçao a um determinado actor
 
